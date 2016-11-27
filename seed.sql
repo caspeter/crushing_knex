@@ -22,7 +22,7 @@ VALUES ('Star Wars: Episode VII - The Force Awakens', 2015, 138, 200000000);
 
 -- 1 OBI-WAN
 INSERT INTO characters (name, race, born, jedi, skin_color, home_planet)
-VALUES('Obi-Wan Kenobi', 'human', 'bby 57', true, 'white', 'Stewjon');
+VALUES('Obi-Wan Kenobi', 'human', '57 bby', true, 'white', 'Stewjon');
 INSERT INTO appearances (character_id, movie_id)
 VALUES(1, 1);
 INSERT INTO appearances (character_id, movie_id)
@@ -38,7 +38,7 @@ VALUES(1, 6);
 
 --2 YODA
 INSERT INTO characters (name, race, born, jedi, skin_color, home_planet)
-VALUES('Yoda', 'unknown', 'bby 896', true, 'green', 'unknown');
+VALUES('Yoda', 'unknown', '896 bby', true, 'green', 'unknown');
 INSERT INTO appearances (character_id, movie_id)
 VALUES(2, 1);
 INSERT INTO appearances (character_id, movie_id)
@@ -52,7 +52,7 @@ VALUES(2, 6);
 
 --3 C-3PO
 INSERT INTO characters (name, race, born, jedi, skin_color, home_planet)
-VALUES('C-3PO', 'droid', 'bby 112', false, 'gold', 'Tatooine');
+VALUES('C-3PO', 'droid', '112 bby', false, 'gold', 'Tatooine');
 INSERT INTO appearances (character_id, movie_id)
 VALUES(3, 1);
 INSERT INTO appearances (character_id, movie_id)
@@ -70,17 +70,77 @@ VALUES(3, 7);
 
 --4 REY
 INSERT INTO characters (name, race, born, jedi, skin_color, home_planet)
-VALUES('Rey', 'human', 'aby 15', true, 'white', 'Jakku');
+VALUES('Rey', 'human', '15 aby', true, 'white', 'Jakku');
 INSERT INTO appearances (character_id, movie_id)
 VALUES(4, 7);
 
 --5 DARTH MAUL
 INSERT INTO characters (name, race, born, jedi, skin_color, home_planet)
-VALUES('Darth Maul', 'Dathomirian', 'unknown', false, 'red', 'Dathomir');
+VALUES('Darth Maul', 'dathomirian', 'unknown', false, 'red and black', 'Dathomir');
 INSERT INTO appearances (character_id, movie_id)
 VALUES(5, 1);
 
+--6 DARTH VADER
+INSERT INTO characters (name, race, born, jedi, skin_color, home_planet)
+VALUES('Darth Vader', 'human', '42 bby', false, 'black', 'Tatooine');
+INSERT INTO appearances (character_id, movie_id)
+VALUES(6, 3);
+INSERT INTO appearances (character_id, movie_id)
+VALUES(6, 4);
+INSERT INTO appearances (character_id, movie_id)
+VALUES(6, 5);
+INSERT INTO appearances (character_id, movie_id)
+VALUES(6, 6);
 
+--7 PADME AMIDALA
+INSERT INTO characters (name, race, born, jedi, skin_color, home_planet)
+VALUES('Padme Amidala', 'human', '46 bby', false, 'white', 'Naboo');
+INSERT INTO appearances (character_id, movie_id)
+VALUES(7, 1);
+INSERT INTO appearances (character_id, movie_id)
+VALUES(7, 2);
+INSERT INTO appearances (character_id, movie_id)
+VALUES(7, 3);
+
+--8 CHEWBACCA
+INSERT INTO characters (name, race, born, jedi, skin_color, home_planet)
+VALUES('Chewbacca', 'wookiee', '200 bby', false, 'brown', 'Kashyyyk');
+INSERT INTO appearances (character_id, movie_id)
+VALUES(8, 3);
+INSERT INTO appearances (character_id, movie_id)
+VALUES(8, 4);
+INSERT INTO appearances (character_id, movie_id)
+VALUES(8, 5);
+INSERT INTO appearances (character_id, movie_id)
+VALUES(8, 6);
+INSERT INTO appearances (character_id, movie_id)
+VALUES(8, 7);
+
+--9 JAR JAR BINKS
+INSERT INTO characters (name, race, born, jedi, skin_color, home_planet)
+VALUES('Jar Jar Binks', 'gungan', 'unknown', false, 'orange', 'Naboo');
+INSERT INTO appearances (character_id, movie_id)
+VALUES(9, 1);
+INSERT INTO appearances (character_id, movie_id)
+VALUES(9, 2);
+INSERT INTO appearances (character_id, movie_id)
+VALUES(9, 3);
+
+--10 LANDO CALRISSIAN
+INSERT INTO characters (name, race, born, jedi, skin_color, home_planet)
+VALUES('Lando Calrissian', 'human', '30 bby', false, 'black', 'Socorro');
+INSERT INTO appearances (character_id, movie_id)
+VALUES(10, 5);
+INSERT INTO appearances (character_id, movie_id)
+VALUES(10, 6);
+
+--11 MACE WINDU
+INSERT INTO characters (name, race, born, jedi, skin_color, home_planet)
+VALUES('Mace Windu', 'human', '72 bby', true, 'black', 'Haruun Kal');
+INSERT INTO appearances (character_id, movie_id)
+VALUES(11, 2);
+INSERT INTO appearances (character_id, movie_id)
+VALUES(11, 3);
 
 
 -- DONE --
@@ -89,3 +149,8 @@ VALUES(5, 1);
 --C-3PO
 --Rey
 --Darth Maul
+--Darth VADER
+--Padme Amidala
+--Chewbacca
+--Jar Jar Binks
+--Mace Windu
